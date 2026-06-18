@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Data & Vector Database
+data/
+vectorstore/
+# Evaluation raw data
+evaluation/data_result/
+# Runtime logs
+logs/
+*.log
+
+# Gradio cache
+.gradio/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
